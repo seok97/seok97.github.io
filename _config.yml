@@ -15,9 +15,9 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
+  title: 석 우현
+  tagline: Frontend Developer
+  date_format: "%Y %b %-d "
   style: black
   showNav: false
   showPicker: true
