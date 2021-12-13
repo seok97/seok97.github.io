@@ -14,3 +14,11 @@ body,
   height: 500px;
   background-color: white;
 }
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
