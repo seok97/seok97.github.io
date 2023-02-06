@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>석우현</title>
+<!-- begin _includes/seo.html --><title>Categories - 석우현</title>
 <meta name="description" content="나는 누구인가?">
 
 
@@ -20,8 +20,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="석우현">
-<meta property="og:title" content="석우현">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Categories">
+<meta property="og:url" content="http://localhost:4000/categories/">
 
 
   <meta property="og:description" content="나는 누구인가?">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/categories/">
 
 
 
@@ -92,7 +92,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--categories">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -242,70 +242,72 @@
  
 
   <!-- 내가만든 사이드 바 -->
-   <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
-
-
-
-<nav class="nav__list">
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">Toggle menu</label>
-  <ul class="nav__items" id="category_tag_menu">
-    <!--전체 글 수-->
-    <li>
-        <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">4</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
-    </li>
-
-    <li>
-    
-        
-    
-        
-    
-        
-            Java
-        
-    
-        
-    
-
-    
-        <span class="nav__sub-title">Java (1)</span>
-        <ul>
-            <li><a href=/categories/Java class="">Java(1)</a></li>
-        </ul>
-    
-        <span class="nav__sub-title">SpringBoot (1)</span>
-        <ul>
-            <li><a href=/categories/SpringBoot class="">SpringBoot(1)</a></li>
-        </ul>
-    
-        <span class="nav__sub-title">Note (2)</span>
-        <ul>
-            <li><a href=/categories/Note class="">Note(2)</a></li>
-        </ul>
-    
-    </li>
-
-  </ul>
-</nav> 
+  
 </div>
 
 
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title"></h1>
+      <h1 id="page-title" class="page__title">Categories</h1>
     
     
 
-<h3 class="archive__subtitle">Recent posts</h3>
 
 
 
 
-<div class="entries-list">
+<ul class="taxonomy__index">
   
     
+      
+    
+      
+    
+      
+        <li>
+          <a href="#note">
+            <strong>Note</strong> <span class="taxonomy__count">2</span>
+          </a>
+        </li>
+      
+    
+  
+    
+      
+        <li>
+          <a href="#java">
+            <strong>Java</strong> <span class="taxonomy__count">1</span>
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a href="#springboot">
+            <strong>SpringBoot</strong> <span class="taxonomy__count">1</span>
+          </a>
+        </li>
+      
+    
+      
+    
+  
+</ul>
+
+
+
+  
+    
+  
+    
+  
+    
+      <section id="note" class="taxonomy__section">
+        <h2 class="archive__subtitle">Note</h2>
+        <div class="entries-list">
+          
+            
 
 
 
@@ -344,8 +346,8 @@
   </article>
 </div>
 
-  
-    
+          
+            
 
 
 
@@ -384,48 +386,20 @@
   </article>
 </div>
 
+          
+        </div>
+        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+      </section>
+    
   
-    
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/springboot/javacatetest/" rel="permalink">테스트용 SpringBoot 카테고리 글
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Github Blog글을 처음 써보며.
-</p>
-  </article>
-</div>
 
   
     
+      <section id="java" class="taxonomy__section">
+        <h2 class="archive__subtitle">Java</h2>
+        <div class="entries-list">
+          
+            
 
 
 
@@ -464,10 +438,64 @@
   </article>
 </div>
 
+          
+        </div>
+        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+      </section>
+    
   
+    
+      <section id="springboot" class="taxonomy__section">
+        <h2 class="archive__subtitle">SpringBoot</h2>
+        <div class="entries-list">
+          
+            
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/springboot/javacatetest/" rel="permalink">테스트용 SpringBoot 카테고리 글
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Github Blog글을 처음 써보며.
+</p>
+  </article>
 </div>
 
-
+          
+        </div>
+        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+      </section>
+    
+  
+    
+  
 
 
   </div>
