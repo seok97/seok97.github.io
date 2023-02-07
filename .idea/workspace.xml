@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8990e0c-4a80-480e-b474-e4e7dda85eec" name="Changes" comment="minimal-mistakes 테마 적용">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39a50fefad724cd0aa7b6ec792325957ea1751b3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/Java/SpringBoot/2023-02-06-javacatetest.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/js/lunr/lunr-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/lunr/lunr-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/categories/Java.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/Java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/categories/Note.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/Note.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/java/javacatetest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/java/javacatetest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/note/cal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/note/cal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/note/firstPost/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/note/firstPost/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/note/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/note/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/springboot/javacatetest/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +45,25 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="GitHubBlog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="GitHubBlog" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675647741203</updated>
       <workItem from="1675647742394" duration="2704000" />
+      <workItem from="1675744774901" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="minimal-mistakes 테마 적용">
       <created>1675658615506</created>

@@ -956,5 +956,3 @@ K
 test/_pages/year-archive.md,4/1/417d5f0464035941fc4eeb9313fa72d10423ef99
 P
  test/_pages/year-archive-grid.md,a/9/a908847385da2c597d0bcfd48c57b2ba9a0f5271
-D
-assets/css/main.scss,3/9/39a50fefad724cd0aa7b6ec792325957ea1751b3
