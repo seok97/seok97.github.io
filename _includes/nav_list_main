@@ -1,5 +1,3 @@
-<!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
-
 {% assign sum = site.posts | size %}
 
 <nav class="nav__list">
@@ -10,21 +8,13 @@
     <li>
         <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
     </li>
-
     <li>
-    {% for post in site.posts %}
-        {% if post.isSub != null %}
-            {{post.isSub}}
-        {% endif %}
-    {% endfor %}
-
     {% for category in site.categories %}
-        <span class="nav__sub-title">{{category[0]}} ({{category[1].size}})</span>
+        <!-- <span class="nav__sub-title">{{category[0]}} ({{category[1].size}})</span> -->
         <ul>
             <li><a href=/categories/{{category[0]}} class="">{{category[0]}}({{category[1].size}})</a></li>
         </ul>
     {% endfor %}
     </li>
-
   </ul>
 </nav>
