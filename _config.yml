@@ -16,11 +16,11 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "석우현의 기록"
+title: "Koes Log"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "석우현의 기록"
-description: "나는 누구인가?"
+name: "WooHyeon Seok"
+description: "Hi"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,10 +103,10 @@ analytics:
 
 # Site Author
 author:
-  name: "석우현"
+  name: "Koes"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "안녕하세요. 백엔드 개발자 입니다."
-  location: "대한민국, 서울"
+  bio: "Web Developer"
+  location: "Seoul, South Korea"
   email:
   links:
     - label: "Email"
